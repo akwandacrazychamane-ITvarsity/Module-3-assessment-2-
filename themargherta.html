@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Recipe Book | Meals</title>
+    <link rel="stylesheet" href="styls.css">
+    <link rel="stylesheet" href="fontAwesome/css/all.css">
+    </head>
+    
+    <body class="body-meals">
+        
+        <div class="header">
+            <a href="beverages.html">
+            <i class="fas fa-arrow-left"></i>
+            </a>
+            
+            <img src="Images/resorant%20logo1.jpg">
+        </div>
+        
+        <div id="recipe">
+            
+            <div class="recipe-details">
+                  <img src="Images/the%20margherita.jpeg">
+                
+                <h1>The Margherta</h1>
+                
+                <div class="recipe-details-info">
+                     <p><b>Price: </b> R34.00</p>
+                     <p style="float: right;"><b>Serving size : </b> slice</p>
+                </div>
+                
+                <div class="recipe-details-ingredients">
+                    <h2>Adding</h2>
+                    
+                    <input id="check-01" type="checkbox">
+                    <label for="check-01">Onion</label>
+                    <br>
+                     <input id="check-02" type="checkbox">
+                    <label for="check-02">Tomato</label>
+                    <br>
+                     <input id="check-03" type="checkbox">
+                    <label for="check-03">Mushroom</label>
+                    <br>
+                     <input id="check-04" type="checkbox">
+                    <label for="check-04">Spinach Frittata</label>
+                    <br>
+                     <input id="check-05" type="checkbox">
+                    <label for="check-05">Cheese</label>
+                </div>
+                
+                 <div class="recipe-details-steps" >
+                <h2>The Margherta</h2>
+                     <p>Pizza Margherita is a typical neapolitan pizza made with san marzanon tomatoes, mozzarella cheese ,fresh basil, salt and extra-virgin olive oil.</p>
+                </div>
+                
+                               <h3>WE'D LOVE TO HEAR FROM YOU!</h3>
+                     <p>If you will like to add something</p>
+                
+                <form action="messagereceved.html">
+                         <br><br>
+                         <p>For additional reqests add beloe:</p>
+                          <textarea name="message" rows="10" cols="10">For Additional requests complete:</textarea>
+                <br><br>
+                <p style="font-size: 20px">Please indicate if Meal will be sit down oe take-away</p>
+                <input type="radio" name="eat" value="Sit-Down">
+                <label>Take-away</label>
+                <input type="radio" name="eat" value="take-away">
+                <label >Take-Away</label>
+                <button id="complete">Place Order</button>
+                </form>
+            </div>
+            
+        </div>
+    </body>
+</html>

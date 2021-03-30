@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Recipe Book | Meals</title>
+    <link rel="stylesheet" href="styls.css">
+    <link rel="stylesheet" href="fontAwesome/css/all.css">
+    </head>
+    
+    <body class="body-meals">
+        
+        <div class="header">
+            <a href="starters.html">
+            <i class="fas fa-arrow-left"></i>
+            </a>
+            
+            <img src="Images/resorant%20logo1.jpg">
+        </div>
+        
+        <div id="recipe">
+            
+            <div class="recipe-details">
+                  <img src="Images/Garlic_Brown_Butter_Roasted_Beef_Tenderloin.jpg">
+                
+                <h1>Beef Renderllon</h1>
+                
+                <div class="recipe-details-info">
+                     <p><b>Price: </b> R65.00</p>
+                     <p style="float: right;"><b>Serving size : </b> 100 gram</p>
+                </div>
+                
+                <div class="recipe-details-ingredients">
+                    <h2>Adding</h2>
+                    
+                    <input id="check-01" type="checkbox">
+                    <label for="check-01">Garlic-Sage Compound Butter</label>
+                    <br>
+                     <input id="check-02" type="checkbox">
+                    <label for="check-02">Avocado Compound Butter</label>
+                    <br>
+                     <input id="check-03" type="checkbox">
+                    <label for="check-03">Shallot and Red Wine Compound Butter</label>
+                    <br>
+                     <input id="check-04" type="checkbox">
+                    <label for="check-04">Blue Cheese Sauce</label>
+                    <br>
+                     <input id="check-05" type="checkbox">
+                    <label for="check-05">Crab Oscar Steak Topping</label>
+                </div>
+                
+                 <div class="recipe-details-steps" >
+                <h2>Beef Renderllon</h2>
+                     <p>If primal and carnal is your bag, then prime rib should be your reast of choice.But if you want to go subtle,elegant,and refined? Put a tenderloin on your table this year</p>
+                </div>
+                
+                 <form action="messagereceved.html">
+                         <br><br>
+                         <p>For additional reqests add beloe:</p>
+                          <textarea name="message" rows="10" cols="10">For Additional requests complete:</textarea>
+                <br><br>
+                <p style="font-size: 20px">Please indicate if Meal will be sit down oe take-away</p>
+                <input type="radio" name="eat" value="Sit-Down">
+                <label>Take-away</label>
+                <input type="radio" name="eat" value="take-away">
+                <label >Take-Away</label>
+                <button id="complete">Place Order</button>
+                </form>
+            </div>
+            
+        </div>
+    </body>
+</html>
